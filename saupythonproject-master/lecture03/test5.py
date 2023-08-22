@@ -1,0 +1,6 @@
+celciusInput = int(input("ป้อนอุณหภูมิ(องศา): "))
+fahrenheitCalculation = str(9 / 5 * celciusInput + 32)
+print("แปลงเป็นองศาฟาเรนไฮต์ได้:", fahrenheitCalculation, "F")
+print("แปลงเป็นองศาฟาเรนไฮต์ได้: " + fahrenheitCalculation + " F")
+print(f"แปลงเป็นองศาฟาเรนไฮต์ได้: {fahrenheitCalculation} F")
+print("แปลงเป็นองศาฟาเรนไฮต์ได้: {} F".format(fahrenheitCalculation))
